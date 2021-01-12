@@ -1,0 +1,6 @@
+module Pods_ECEcapstone2021 {
+  umbrella header "Pods-ECEcapstone2021-umbrella.h"
+
+  export *
+  module * { export * }
+}
