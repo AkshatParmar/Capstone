@@ -5,7 +5,7 @@
  * @format
  * @flow strict-local
  */
-
+import  RootStackScreen  from './screens/RootStackScreen';
 import React from 'react';
 import {
   SafeAreaView,
