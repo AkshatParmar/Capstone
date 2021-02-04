@@ -10,8 +10,10 @@ import {
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import LinearGradient from 'react-native-linear-gradient';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { useTheme } from '@react-navigation/native';
+
+import { useTheme } from '@react-navigation/native'
+
+
 
 const SplashScreen = ({navigation}) => {
     const { colors } = useTheme();
@@ -20,13 +22,13 @@ const SplashScreen = ({navigation}) => {
       <View style={styles.container}>
           <StatusBar backgroundColor='#009387' barStyle="light-content"/>
         <View style={styles.header}>
-            <Animatable.Image 
+        <Animatable.Image 
                 animation="bounceIn"
                 duraton="1500"
-            source={require('../assets/logo.png')}
+            source={require('../assets/logo.svg')}
             style={styles.logo}
             resizeMode="stretch"
-            />
+            /> 
         </View>
         <Animatable.View 
             style={[styles.footer, {
